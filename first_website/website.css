@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 1px solid #d7e3fc;
+    width: 100%;
+    background-color: #03253a;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: #150909;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-link {
+    width: 20%;
+}
+
+nav .nav-link ul {
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+
+nav .nav-link ul a {
+    text-decoration: none;
+    color: #f0ebd8;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+
+nav .nav-link ul a:hover,
+nav .nav-link ul a:active {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0ebd8;
+}
+
+header {
+    text-align: center;
+    padding: 0;
+    background-image: url("door.jpg");
+    color: #660708;
+}
+
+.header-text p {
+    font-size: large;
+    color: #252422;
+    font-weight: 700;
+}
+
+main h1 {
+    text-align: center;
+    color: #ff99ac;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: #150909;
+}
+
+.main-text p,
+.other-text,
+.last-text {
+    color: #e5e5e5;
+}
+
+main .last-text ul {
+    list-style: none;
+}
+
+.about-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.about-text p {
+    color: #ced4da;
+    font-size: large;
+}
+
+.about-text img {
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+ 
+.search-page a {
+    text-decoration: none;
+}
+
+.search-page a,
+.login-page h1 {
+    color: #80b918;
+}
+
+.form-input .input-field {
+    margin: 8px 0;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+#button {
+    background-color: #150909;
+    color: whitesmoke;
+}
+
+.login-page_form {
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.login-page_head {
+    margin: 8px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #780000;
+    font-weight: 900;
+    padding: 5px;
+}
